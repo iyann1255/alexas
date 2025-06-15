@@ -25,15 +25,15 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90000000"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9000"))
 
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "210000000"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "2100"))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("OWNER_ID", "7931457261"))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
@@ -41,7 +41,7 @@ BOT_ID = getenv("BOT_ID")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/iyann1255/alexas")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
