@@ -10,7 +10,7 @@ as you want or you can collabe if you have new ideas.
 """
 
 
-from .help import *
+from .start import *
 from .play import *
 from .playlist import *
 from .queue import *
