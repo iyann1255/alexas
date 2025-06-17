@@ -67,7 +67,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
-GITHUB_REPO = getenv("REPO", "https://github.com/iyann1255/alexas")
+GITHUB_REPO = getenv("REPO", "https://github.com/")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "fa3b7db7a2ee415685d07f0df979f591")
 
