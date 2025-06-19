@@ -17,6 +17,4 @@ from .queue import *
 from .settings import *
 from .song import *
 from .start import *
-from .force_subscribe import *
-from .start_command import *
 
