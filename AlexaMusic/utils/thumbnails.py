@@ -131,7 +131,7 @@ async def gen_thumb(videoid):
             (255, 255, 255),
             font=arial,
         )
-        draw.text((600, 550), "Owner : Jankari Ki Duniya", (255, 255, 255), font=arial)
+        draw.text((600, 550), "Owner : ASep and Why", (255, 255, 255), font=arial)
         try:
             os.remove(f"cache/thumb{videoid}.png")
         except Exception:
@@ -242,7 +242,7 @@ async def gen_qthumb(videoid):
             (255, 255, 255),
             font=arial,
         )
-        draw.text((600, 550), "Owner : Jankari Ki Duniya", (255, 255, 255), font=arial)
+        draw.text((600, 550), "Owner : Asep and Why", (255, 255, 255), font=arial)
         try:
             os.remove(f"cache/thumb{videoid}.png")
         except Exception:
