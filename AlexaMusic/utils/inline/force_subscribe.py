@@ -3,7 +3,7 @@
 from pyrogram.errors import UserNotParticipant, ChatAdminRequired
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-FORCE_CHANNEL = "sep_musiq"  # Ganti dengan username channel kamu tanpa '@'
+FORCE_CHANNEL = "AWDfilm"  # Ganti dengan username channel kamu tanpa '@'
 
 def force_subscribe(func):
     async def wrapper(client, message):
