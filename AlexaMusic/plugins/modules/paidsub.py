@@ -13,6 +13,6 @@ def paid_subscriber_required(func):
     return wrapper
 
 # Contoh penggunaan:
-@paid_subscriber_required
+@awdfilm
 async def your_handler(_, message: Message):
     await message.reply("Selamat datang pengguna premium!")
