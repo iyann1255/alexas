@@ -280,7 +280,7 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", "Alexa"]))
 async def alive(client, message: Message):
     await message.reply_photo(
-        photo="https://ibb.co/G46DCYtP",
+        photo="assets/bot.jpeg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, sepmusiq ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n✪ ᴛʜᴀɴᴋs ᴛᴏ ʏᴜᴋᴋɪ ᴛᴇᴀᴍ 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [dev](https://t.me/sepmuksik)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ʜᴇʟᴘ](https://t.me/https://t.me/sepmuksik)┓\n┣★ ʀᴇᴘᴏ › : [ʀᴇᴘᴏ](coming soon)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/sepmuksik) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🌼 sepmusiq ᴄʜᴀᴛ 💮", url=config.SUPPORT_GROUP)]]
@@ -297,7 +297,7 @@ async def verify(client, message: Message):
         return
     await add_served_user(message.from_user.id)
     await message.reply_photo(
-        photo="https://ibb.co/G46DCYtP",
+        photo="assets/bot.jpeg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ **ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ** 🎉\n✪ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ sepmusiq ᴠᴇʀɪғɪᴇᴅ ᴍᴇᴍʙᴇʀ ɢᴏ ʙᴀᴄᴋ ᴀɴᴅ ᴇɴᴊᴏʏ ᴏᴜʀ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ 🌼 ..\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🌼 sepmusiq ᴄʜᴀᴛ 💮", url=config.SUPPORT_GROUP)]]
