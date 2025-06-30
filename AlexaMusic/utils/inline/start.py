@@ -118,7 +118,7 @@ def subcribe(func):
                         f"ʜᴇʏ {rpk}. ᴀɢᴀʀ ʙɪsᴀ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜsɪᴋ, ᴀɴᴅᴀ ʜᴀʀᴜs ᴊᴏɪɴ ᴋᴇ ɢʀᴜᴘ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ . ᴋᴀʟᴀᴜ ᴀᴅᴀ ᴍᴀꜱᴀʟᴀʜ ᴘᴄ @kiritonibos",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
-                            [[InlineKeyboardButton("🗣️ GABUNG SINI 😅", url=link)]]
+                            [[InlineKeyboardButton("🗣️ GABUNG SINI 😅", url=SUPPORT_GROUP)]]
                         ),
                     )
                     await message.stop_propagation()
