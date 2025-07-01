@@ -1,24 +1,24 @@
 name : English
 
 # General Strings
-general_1 : "```Balas Pesan Pengguna atau Berikan Username / ID Pengguna.```"
-general_2 : "```Kesalahan! Penggunaan Perintah yang Salah.```"
-general_3 : "```Terjadi Kesalahan Saat Memproses Permintaan Anda.\n\nJenis Kesalahan: {0}</code>```"
-general_4 : "```Anda adalah Admin Anonim di Grup Chat Ini!\nKembalilah ke Akun Pengguna dari Hak Admin.```"
-general_5 : "```Anda Harus Menjadi Admin dengan Hak Kelola Voice Chat untuk Melakukan Tindakan Ini.\n\nMuat Ulang Cache Admin via /reload```"
-general_6 : "```Bot Tidak Sedang Melakukan Streaming di Voice Chat.```"
+general_1 : "Balas Pesan Pengguna atau Berikan Username / ID Pengguna."
+general_2 : "Kesalahan! Penggunaan Perintah yang Salah."
+general_3 : "Terjadi Kesalahan Saat Memproses Permintaan Anda.\n\nJenis Kesalahan: {0}</code>"
+general_4 : "Anda adalah Admin Anonim di Grup Chat Ini!\nKembalilah ke Akun Pengguna dari Hak Admin."
+general_5 : "Anda Harus Menjadi Admin dengan Hak Kelola Voice Chat untuk Melakukan Tindakan Ini.\n\nMuat Ulang Cache Admin via /reload"
+general_6 : "Bot Tidak Sedang Melakukan Streaming di Voice Chat."
 
 
 # Classes - Telegram.py
-tg_1 : "```<u><b>{0} Pengunduh</b></u>\n\n<b>Ukuran File :</b> {1}\n<b>Selesai :</b> {2}\n<b>Persentase :</b> {3}%\n\n<b>Kecepatan :</b> {4}/s\n<b>Estimasi Selesai :</b> {5}```"
-tg_2 : "```Berhasil Diunduh, Sedang Diproses .....\n\n<b>Waktu Berlalu :</b> {0}```"
-tg_3 : "```Gagal Mengunduh Media dari Telegram, Silakan Coba Lagi .....```"
-tg_4 : "```Unduhan Sudah Selesai.```"
-tg_5 : "```Unduhan Sudah Selesai atau Dibatalkan.```"
-tg_6 : "```Unduhan Dibatalkan.```"
-tg_7 : "```Unduhan Dibatalkan Oleh : {0}```"
-tg_8 : "```Gagal Menghentikan Unduhan.```"
-tg_9 : "```Gagal Mendapatkan Tugas Unduhan yang Sedang Berlangsung...```"
+tg_1 : "<u><b>{0} Pengunduh</b></u>\n\n<b>Ukuran File :</b> {1}\n<b>Selesai :</b> {2}\n<b>Persentase :</b> {3}%\n\n<b>Kecepatan :</b> {4}/s\n<b>Estimasi Selesai :</b> {5}"
+tg_2 : "Berhasil Diunduh, Sedang Diproses .....\n\n<b>Waktu Berlalu :</b> {0}"
+tg_3 : "Gagal Mengunduh Media dari Telegram, Silakan Coba Lagi ....."
+tg_4 : "Unduhan Sudah Selesai."
+tg_5 : "Unduhan Sudah Selesai atau Dibatalkan."
+tg_6 : "Unduhan Dibatalkan."
+tg_7 : "Unduhan Dibatalkan Oleh : {0}"
+tg_8 : "Gagal Menghentikan Unduhan."
+tg_9 : "Gagal Mendapatkan Tugas Unduhan yang Sedang Berlangsung..."
 
 
 # Core - Call.py
