@@ -174,7 +174,7 @@ play_12 : "**Playlist Spotify**\n\nDiminta oleh: {0}"
 play_13 : "**Playlist Apple Music**\n\nDiminta oleh: {0}"
 play_14 : "**Gagal memverifikasi URL.**\nBot bertanya-tanya apakah URL ini berasal dari platform berikut: YouTube, Apple Music, Spotify, Resso, atau SoundCloud.\n\nKamu bisa gunakan perintah /stream untuk link m3u8 atau tautan streaming lainnya."
 play_15 : "**Live Stream Terdeteksi**\n\nSistem mendeteksi tautan ini sebagai siaran langsung. Ingin memutar live stream?"
-play_16 : "Gagal mengambil detail lagu, mungkin lagu tersebut dibatasi usia di YouTube. Coba putar lagu lain. Chat Admin Buat Di Perbaiki  Chat @Jdiginibe_bot"
+play_16 : "Gagal mengambil detail lagu, Ini Error Bang/mba, Chat admin buat Di Perbaiki.  Chat @Jdiginibe_bot"
 play_17 : "Tidak dapat memutar jenis permintaan Spotify ini!\n\nAku hanya bisa memutar lagu, album, artis, dan playlist dari Spotify."
 play_18 : "Tidak ada obrolan suara aktif.\n\nUntuk menggunakan Force Play, harus ada obrolan suara yang sedang aktif."
 
