@@ -5,8 +5,6 @@ from pyrogram.enums import MessagesFilter
 from pyrogram.raw.functions.messages import DeleteHistory
 from aiofiles.os import remove as aremove
 
-from AlexaMusic  import AlexaMusic , ub
-
 
 
 @cilik.on_message(filters.command(["dl", "download"]))
