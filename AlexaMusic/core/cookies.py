@@ -1,7 +1,3 @@
-# Copyright (c) 2025 @KSKOP69. All rights reserved.
-# Use of this source code is governed by a proprietary license.
-
-# Made by @KSKOP69 with ❤️
 
 
 import os
