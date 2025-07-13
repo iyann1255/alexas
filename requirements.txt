@@ -6,7 +6,7 @@ gitpython
 gunicorn
 hachoir
 heroku3
-Kurigram==2.2.4
+Kurigram==2.2.7
 lyricsgenius
 motor
 ntgcalls==2.0.5
