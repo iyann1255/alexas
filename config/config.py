@@ -39,7 +39,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AWDfilm")
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/sepmuksik")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "-1002558545176")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
