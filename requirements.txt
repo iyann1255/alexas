@@ -9,10 +9,10 @@ heroku3
 Kurigram==2.2.7
 lyricsgenius
 motor
-ntgcalls==2.0.5
+ntgcalls==2.0.6
 pillow
 psutil
-py-tgcalls==2.2.5
+py-tgcalls==2.2.6
 pykeyboard
 PyTgCrypto
 python-dotenv
