@@ -1,15 +1,3 @@
-# Copyright (C) 2025 by Alexa_Help @ Github, < https://github.com/TheTeamAlexa >
-# Subscribe On YT < Jankari Ki Duniya >. All rights reserved. © Alexa © Yukki.
-
-"""
-TheTeamAlexa is a project of Telegram bots with variety of purposes.
-Copyright (c) 2021 ~ Present Team Alexa <https://github.com/TheTeamAlexa>
-
-This program is free software: you can redistribute it and can modify
-as you want or you can collabe if you have new ideas.
-"""
-
-
 from pyrogram import filters
 from pyrogram.errors import MessageNotModified
 from pyrogram.types import (
@@ -92,9 +80,7 @@ async def settings_cb(client, CallbackQuery, _):
 
 @app.on_callback_query(filters.regex("settingsback_helper") & ~BANNED_USERS)
 @languageCB
-async def settings_back_markup(
-    client, CallbackQuery: CallbackQuery, _, message: Message
-):
+async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
     try:
         await CallbackQuery.answer()
     except Exception:
@@ -107,7 +93,7 @@ async def settings_back_markup(
             OWNER = None
         buttons = private_panel(_, app.username, OWNER)
         return await CallbackQuery.edit_message_text(
-            caption=_["start_2"].format(message.from_user.mention, app.mention),
+            caption=_["start_2"].format(CallbackQuery.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(buttons),
         )
     else:
