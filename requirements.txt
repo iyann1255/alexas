@@ -9,6 +9,7 @@ heroku3
 lyricsgenius
 motor
 ntgcalls==2.0.6
+pykeyboard
 pillow
 psutil
 py-tgcalls==2.2.8
