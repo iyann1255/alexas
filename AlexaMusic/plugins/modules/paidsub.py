@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from pyrogram.errors import FloodWait
 from AlexaMusic.core.mongo import db as alexa
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from AlexaMusic.utils.database import get_served_users, get_served_cchat
+from AlexaMusic.utils.database import get_served_users, get_served_chat
 
 MUST_JOIN = "aseppppv"
 #------------------------
