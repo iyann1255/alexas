@@ -22,6 +22,7 @@ unidecode
 uvloop==0.21.0
 werkzeug
 yt-dlp
+https://github.com/yt-dlp/yt-dlp/archive/master.zip
 https://github.com/KurimuzonAkuma/pyrogram/archive/dev.zip
 https://github.com/KSKOP69/youtube-search-python/archive/ksk.zip
 PyYAML~=6.0.3
