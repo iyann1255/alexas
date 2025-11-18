@@ -76,7 +76,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "1048574951424")
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1048574951424"))
 # https://www.gbmb.org/mb-to-bytes
 
-COOKIES = getenv("COOKIES", None)
+COOKIES = getenv("COOKIES", "cookies/cookies.txt" )
 # https://batbin.me
 
 STRING1 = getenv("STRING_SESSION", None)
