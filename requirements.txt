@@ -19,7 +19,7 @@ requests
 speedtest-cli
 spotipy
 unidecode
-uvloop==0.21.0
+uvloop==0.22.1
 werkzeug
 yt-dlp
 https://github.com/yt-dlp/yt-dlp/archive/master.zip
